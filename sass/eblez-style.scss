@@ -1,0 +1,68 @@
+body{
+
+}
+section.menu-partie{
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+background-color:#fff;
+    h2{
+        font-size:3rem;
+    }
+
+    .menu-partie--plat{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:nowrap;
+        justify-content: space-between;
+        align-items:flex-start;
+        width:100%;
+        padding:10px 0;
+        border-bottom:1px solid rgba(0, 0, 0, 0.3);
+        
+
+        .menu-partie--plat--description{
+            display:flex;
+            flex-direction:row;
+            flex-wrap:nowrap;
+            justify-content: start;
+            width:90%;
+            .menu-partie--plat--description-img{
+                    height:100px;
+                    width:25%;
+                img{
+                    height:100%;
+                    width:100%;
+                    object-fit: cover;
+                }
+            }
+            
+
+            .menu-partie--plat--description-texte{
+                padding:0 10px;
+                display:flex;
+                flex-direction: column;
+                justify-content: start;
+                &>h3{
+                    margin:0 0 10px 0;
+
+                    font-size:1.4rem;
+                    line-height: 1.5rem;
+                }
+                &>p{font-size:0.8rem;}
+            }
+            
+        }
+
+        .menu-partie--plat--prix{
+            p{
+                font-size:1.4rem;
+                text-align: center;
+            }
+            width:10%;
+            
+        }
+
+    }
+
+}
